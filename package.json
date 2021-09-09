@@ -1,0 +1,38 @@
+{
+    "name": "anotherstory",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "parcel public/index.html",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "@-0/browser": "^0.3.40",
+        "@emotion/styled": "^11.3.0",
+        "@thi.ng/associative": "^5.2.15",
+        "framer-motion": "^4.1.17",
+        "styled-system": "^5.1.5"
+    },
+    "devDependencies": {
+        "@types/react": "^17.0.19",
+        "@types/react-dom": "^17.0.9",
+        "@typescript-eslint/eslint-plugin": "^4.30.0",
+        "eslint": "^7.32.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-config-react-app": "^6.0.0",
+        "eslint-plugin-json": "^3.1.0"
+    },
+    "prettier": {
+        "singleQuote": false,
+        "printWidth": 100,
+        "endOfLine": "lf",
+        "tabWidth": 4,
+        "semi": false,
+        "arrowParens": "avoid"
+    }
+}
